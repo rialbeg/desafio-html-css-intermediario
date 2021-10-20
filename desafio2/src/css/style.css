@@ -1,0 +1,55 @@
+html{
+    font-size:62.5%;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size:1.6rem;
+}
+
+.conteudo{
+    margin-top:96px;
+}
+
+.painel .texto-painel,
+.painel .imagem-painel{
+    float:left;
+}
+
+.painel .texto-painel{
+    width:40%;
+    padding:80px 95px;
+}
+.painel .texto-painel h1{
+    font-size:3rem;
+    font-weight:700;
+    margin-bottom: 14px;
+}
+.painel .texto-painel p{
+    font-size:2rem;
+    margin-bottom:50px;
+}
+.painel .texto-painel .botao-cadastro{
+    font-size: 1.5rem;
+    padding:10px 20px;
+    background: #5BC241;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.painel .texto-painel .botao-cadastro:hover{
+    background: #459c2f;
+    cursor: pointer;
+    transition:all 0.5s;
+}
+
+.painel .imagem-painel{
+    font-size:0;
+    background: url('../imagens/painel.jpg') center center no-repeat;
+    background-size:cover;
+    width:60%;
+    height:384px;
+}
+
