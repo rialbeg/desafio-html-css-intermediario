@@ -1,0 +1,46 @@
+@media (max-width:768px){
+    .cabecalho .logo,
+    .cabecalho .logo img,
+    .cabecalho .logo h1,
+    .cabecalho nav,
+    .cabecalho nav ul li{
+        display: block;
+        text-align: center;
+        margin: 20px  auto;
+    }
+    .cabecalho nav{
+        float: none;
+    }
+
+    .cabecalho .logo img{
+        display:inline-block;
+        /* padding-top:10px ; */
+    }
+    .cabecalho .logo h1{
+        position:relative;
+        display: inline-block;
+        top:-20px;
+        
+    }
+
+    .cabecalho .logo h1,
+    .cabecalho nav ul li a{
+        font-size:4rem;
+
+    }
+    .botao-verde-quadrado{
+        width:235px;
+        height:80px;
+        padding-top: 15px;
+    }
+
+    .botao-verde-arredondado{
+        width: 130px;
+        height:40px;
+    }
+    .cabecalho nav ul li a.botao-verde-arredondado{
+        font-size:1.5rem;
+        padding: 10px 20px;
+        
+    }
+}
