@@ -1,47 +1,44 @@
-@media (max-width:1024px){
-html{
-    font-size:80%;
-}
+@media (max-width: 1024px) {
+  html {
+    font-size: 80%;
+  }
 
-    .painel .texto-painel,
-.painel .imagem-painel{
-    float:none;
-    text-align:center;
+  .painel .texto-painel,
+  .painel .imagem-painel {
+    float: none;
+    text-align: center;
     margin: 0 auto;
+  }
+
+  .painel .texto-painel {
+    width: 100%;
+  }
+  .painel .imagem-painel {
+    width: 80%;
+    height: 250px;
+  }
 }
 
+@media (max-width: 475px) {
+  html {
+    font-size: 60%;
+  }
+  .painel .texto-painel {
+    padding: 26px;
+  }
+  .painel .texto-painel p {
+    margin-bottom: 20px;
+  }
+  .painel .imagem-painel {
+    width: 80%;
+    height: 127px;
+  }
 
-.painel .texto-painel{
-    width:100%;
-    
+  .painel .texto-painel .botao-cadastro {
+    font-size: 2rem;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
-.painel .imagem-painel{
-    width:80%;
-    height:250px;
-}
-}
-
-@media (max-width:475px){
-    html{
-        font-size:60%;
-    }
-    .painel .texto-painel{
-        padding:26px;
-    }
-    .painel .texto-painel p{
-        margin-bottom:20px;
-    }
-    .painel .imagem-painel{
-        width:80%;
-        height:127px;
-    }
-
-    .painel .texto-painel .botao-cadastro{
-        font-size:2rem;
-        position:absolute;
-        top:100%;
-        left: 50%;
-        transform:translate(-50%,-50%);
-    }
-}
-

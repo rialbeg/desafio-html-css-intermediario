@@ -1,18 +1,16 @@
-
-@media (max-width:1144px){
-    .lista-imagens .card{
-        width: 50%;
-        margin: 0 auto;
-        float: left;
-    }
+@media (max-width: 1144px) {
+  .lista-imagens .card {
+    width: 50%;
+    margin: 0 auto;
+    float: left;
+  }
 }
 
-@media (max-width:768px) {
-    .lista-imagens .card{
-        display: block;
-        width: 90%;
-        margin: 0 auto;
-        float: none;
-    }
+@media (max-width: 768px) {
+  .lista-imagens .card {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    float: none;
+  }
 }
-

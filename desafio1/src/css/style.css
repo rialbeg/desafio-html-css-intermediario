@@ -1,73 +1,71 @@
-html{
-    font-size:62.5%;
+html {
+  font-size: 62.5%;
 }
 
 body {
-    max-width: 1440px;
-    margin: 0 auto;
-    font-size:1.6rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: 1.6rem;
 }
 
-.cabecalho{
-    margin-top:40px;
-    position: relative;
+.cabecalho {
+  margin-top: 40px;
+  position: relative;
 }
 
 .cabecalho .logo,
 .cabecalho .logo img,
 .cabecalho .logo h1,
 .cabecalho nav,
-.cabecalho nav ul li{
-    display: inline-block;
+.cabecalho nav ul li {
+  display: inline-block;
 }
 
-.cabecalho .logo img{
-    width:48px;
-    margin-left: 55px;
+.cabecalho .logo img {
+  width: 48px;
+  margin-left: 55px;
 }
 
-
-
-.cabecalho .logo h1{
-    font-size:2rem;
-    font-weight:800;
-    position:absolute;
+.cabecalho .logo h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  position: absolute;
 }
 
-.cabecalho nav{
-    float:right;
-    margin-top:-5px;
-    margin-right: 75px;
+.cabecalho nav {
+  float: right;
+  margin-top: -5px;
+  margin-right: 75px;
 }
 
-.cabecalho nav ul li{
-    margin-right: 15px;
+.cabecalho nav ul li {
+  margin-right: 15px;
 }
-.cabecalho nav ul li a{
-    font-size:1.5rem;
-    font-weight:400;
-}
-
-.cabecalho nav ul li a.botao-verde-arredondado{
-    font-weight: 300;
-}
-.botao-verde-quadrado{
-    background: #5BC241;
-    width:60px;
-    height:40px;
-    display:inline-block;
-    text-align:center;
-    padding-top: 10px;
-    color:white;
+.cabecalho nav ul li a {
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
-.botao-verde-arredondado{
-    background: #5BC241;
-    width:130px;
-    height:40px;
-    display:inline-block;
-    text-align:center;
-    padding: 10px 20px;
-    color:white;
-    border-radius:10px;
+.cabecalho nav ul li a.botao-verde-arredondado {
+  font-weight: 300;
+}
+.botao-verde-quadrado {
+  background: #5bc241;
+  width: 60px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+}
+
+.botao-verde-arredondado {
+  background: #5bc241;
+  width: 130px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
 }

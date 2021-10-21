@@ -1,56 +1,52 @@
-html{
-    font-size:62.5%;
+html {
+  font-size: 62.5%;
 }
 
 body {
-    max-width: 1440px;
-    margin: 0 auto;
-    font-size:1.6rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-size: 1.6rem;
 }
 
-.conteudo{
-    margin-top:116px;
+.conteudo {
+  margin-top: 116px;
 }
 
-
-
-.lista-imagens .card{
-    width:23%;
-    height:432px;
-    margin: 10px;
-    position: relative;
-    display: inline-block;
-    color:white;
+.lista-imagens .card {
+  width: 23%;
+  height: 432px;
+  margin: 10px;
+  position: relative;
+  display: inline-block;
+  color: white;
 }
 
-.lista-imagens .card h2
-{
-    font-size:3rem;
-    font-weight:700;
-    position:absolute;
-    bottom:55px;
-    left:20px;
+.lista-imagens .card h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  position: absolute;
+  bottom: 55px;
+  left: 20px;
 }
-.lista-imagens .card p{
-    font-size:1.7rem;
-    position:absolute;
-    bottom:30px;
-    left:20px;
+.lista-imagens .card p {
+  font-size: 1.7rem;
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
 }
-.img1{
-    background:url('../imagens/6.jpg') center center no-repeat;
-    background-size:cover;
+.img1 {
+  background: url("../imagens/6.jpg") center center no-repeat;
+  background-size: cover;
 }
-.img2{
-    background:url('../imagens/3.jpg') center center no-repeat;
-    background-size:cover;
+.img2 {
+  background: url("../imagens/3.jpg") center center no-repeat;
+  background-size: cover;
 }
-.img3{
-    background:url('../imagens/4.jpg') center center no-repeat;
-    background-size:cover;
+.img3 {
+  background: url("../imagens/4.jpg") center center no-repeat;
+  background-size: cover;
 }
-.img4{
-    background:url('../imagens/5.jpg') center center no-repeat;
-    background-size:cover;
+.img4 {
+  background: url("../imagens/5.jpg") center center no-repeat;
+  background-size: cover;
 }
-
